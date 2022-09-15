@@ -9,7 +9,7 @@ pintarPeliculas(peliculas);
 
 let peliculaSeleccionar = {};
 fila.addEventListener('click',function(evento){
-   // window.location.href = "./src/views/ampliarInfoPelicula.html"
+   window.location.href = "./src/views/ampliarInfoPelicula.html"
    
    peliculaSeleccionar.poster=(evento.target.parentElement.querySelector('img').src);//Imagen
    peliculaSeleccionar.nombrePelicula=(evento.target.parentElement.querySelector('h3').textContent);//Nombre
@@ -22,6 +22,7 @@ fila.addEventListener('click',function(evento){
     console.log(peliculaSeleccionar);
     //Llamando la memoria del computador
     localStorage.setItem("peliculasSeleccionar",JSON.stringify(peliculaSeleccionar));
+
 })
 
 ///---------------------------------------------------------PELICULAS PROXIMAS A ESTRENO---------------------------------------------------------------
