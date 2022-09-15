@@ -20,6 +20,8 @@ fila.addEventListener('click',function(evento){
    peliculaSeleccionar.director=(evento.target.parentElement.querySelector('h8').textContent);//Director
    peliculaSeleccionar.reparto=(evento.target.parentElement.querySelector('h9').textContent);//Reparto
     console.log(peliculaSeleccionar);
+    //Llamando la memoria del computador
+    localStorage.setItem("peliculasSeleccionar",JSON.stringify(peliculaSeleccionar));
 })
 
 ///---------------------------------------------------------PELICULAS PROXIMAS A ESTRENO---------------------------------------------------------------
