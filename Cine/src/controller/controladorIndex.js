@@ -17,7 +17,7 @@ fila.addEventListener('click',function(evento){
    peliculaSeleccionar.idioma=(evento.target.parentElement.querySelector('h6').textContent);//Idioma
    peliculaSeleccionar.sinopsis=(evento.target.parentElement.querySelector('p').textContent);//Sinopsis
    peliculaSeleccionar.clasificacion=(evento.target.parentElement.querySelector('h7').textContent);//Clasificación
-   peliculaSeleccionar.director=(evento.target.parentElement.querySelector('h8').textContent);//Director
+   peliculaSeleccionar.director=(evento.target.parentElement.querySelector('.text-muted').textContent);//Director
    peliculaSeleccionar.reparto=(evento.target.parentElement.querySelector('h9').textContent);//Reparto
     console.log(peliculaSeleccionar);
     //Llamando la memoria del computador

@@ -34,7 +34,7 @@ export function pintarPeliculas(peliculas){
          clasificacion.textContent = "Clasificación: " + pelicula.clasificacion;
     //9. DIRECTOR
     let director = document.createElement("h8");
-        director.classList.add("fw-bold");
+        director.classList.add("text-muted");
          director.textContent = "Director: " + pelicula.director;
     //10. REPARTO
     let reparto = document.createElement("h9");
