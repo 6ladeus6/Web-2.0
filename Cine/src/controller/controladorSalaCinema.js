@@ -12,3 +12,7 @@ let  asientos = [
 
 pintarSillas(asientos,cinema);
 
+//Evento de click en la sala de cine
+cinema.addEventListener("click",function(){
+    
+})
