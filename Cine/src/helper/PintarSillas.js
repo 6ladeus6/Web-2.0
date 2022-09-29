@@ -11,7 +11,7 @@ export function pintarSillas(asientos){
         hilera.forEach(function(asiento){
             
             let columna = document.createElement("div");
-            columna.classList.add("col-3");
+            columna.classList.add("col-2");
     
             let fotoSilla = document.createElement("img");
             fotoSilla.classList.add("img-fluid","w-100");
