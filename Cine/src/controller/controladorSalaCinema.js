@@ -87,3 +87,9 @@ cinema.addEventListener("click",function(evento){
  
     }
 })
+
+
+
+
+
+
